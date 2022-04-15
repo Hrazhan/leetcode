@@ -46,7 +46,8 @@ query_problem ${URL} ${QUESTION_TITLE_SLUG}
 #echo $QUESTION_CATEGORY
 
 
-FILE=`echo ${FILE} | sed "s/.*\/algorithms/\.\/algorithms/"`
+# FILE=`echo ${FILE} | sed "s/.*\/algorithms/\.\/algorithms/"`
+FILE=`echo ${FILE} | sed "s/.*\/leetcode/\./"`
 
 echo "|${QUESTION_FRONTEND_ID}|[${QUESTION_TITLE}](${URL}) | [Python](${FILE})|_O()_|_O()_|${QUESTION_DIFFICULTY}|"
 
