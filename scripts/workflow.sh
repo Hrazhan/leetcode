@@ -43,14 +43,16 @@ platform=`detect_os`
 leetcode_url=$1
 
 get_question_slug ${leetcode_url}
-dir_name=`echo ${QUESTION_TITLE_SLUG} | awk -F '-' '{for (i=1; i<=NF; i++) printf("%s", toupper(substr($i,1,1)) substr($i,2)) }'`
-dir_name=`echo ${dir_name:0:1} | tr '[A-Z]' '[a-z]'`${dir_name:1}
+dir_name=`echo ${QUESTION_TITLE_SLUG} | awk -F"-" '{for(i=1;i<=NF;i++){$i=toupper(substr($i,1,1)) substr($i,2)}} 1' OFS=""`
+# dir_name=`echo ${dir_name:0:1} | tr '[A-Z]' '[a-z]'`${dir_name:1}
 
 mkdir -p ${dir_name}
 echo "Step 1 : Created \"${dir_name}\" directory!"
 cd ${dir_name}
 
 file=`${SCRIPT_PATH}/comments.sh ${leetcode_url} | grep updated | awk '{print $1}'`
+# file=`echo ${file:0:1} | tr '[A-Z]' '[a-z]'`${file:1}
+
 WORKING_DIR=`pwd`
 SRC="${dir_name}/${file}"
 SRC_FILE="${WORKING_DIR}/${file}"

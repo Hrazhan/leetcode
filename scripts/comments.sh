@@ -96,9 +96,9 @@ if [ $# -gt 1 ] && [ -f $2 ]; then
     fi
 else
     source_file=$QUESTION_TITLE_SLUG
-    #source_file=${source_file::${#source_file}-1}
+    # source_file=${source_file::${#source_file}-1}
     source_file=`echo $source_file | awk -F '-' '{for (i=1; i<=NF; i++) printf("%s", toupper(substr($i,1,1)) substr($i,2)) }'`${FILE_EXT}
-
+    source_file=`echo ${source_file:0:1} | tr '[A-Z]' '[a-z]'`${source_file:1}
     if [ ! -f ${source_file} ]; then
         echo "Create a new file - ${source_file}."
         echo -e "\n" > ${source_file}
@@ -194,6 +194,8 @@ esac
 tr -d $'\r' < ${TMP_FILE} > ${TMP_FILE}.1
 mv ${TMP_FILE}.1 ${TMP_FILE}
 
+
+echo $source_file
 #insert the problem description into the source file, and remove it
 sed -i.bak '4 r '${TMP_FILE}'' ${source_file}
 rm -f ${source_file}.bak
