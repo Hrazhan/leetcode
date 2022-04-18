@@ -15,3 +15,4 @@ LeetCode
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](./TwoPointers/ValidPalindrome/validPalindrome.py)|_O(n)_|_O(1)_|Easy|
 |167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./TwoPointers/TwoSumIiInputArrayIsSorted/twoSumIiInputArrayIsSorted.py)|_O(n)_|_O(1)_|Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/) | [Python](./SlidingWindows/BestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.py)|_O(n)_|_O(1)_|Easy|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./SlidingWindow/LongestSubstringWithoutRepeatingCharacters/longestSubstringWithoutRepeatingCharacters.py)|_O(n)_|_O(n)_|Medium|
