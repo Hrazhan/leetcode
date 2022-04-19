@@ -17,4 +17,6 @@ LeetCode
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/) | [Python](./SlidingWindows/BestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.py)|_O(n)_|_O(1)_|Easy|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./SlidingWindow/LongestSubstringWithoutRepeatingCharacters/longestSubstringWithoutRepeatingCharacters.py)|_O(n)_|_O(n)_|Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search) | [Python](./BinarySearch/BinarySearch/binarySearch.py)|_O(logn)_|_O(1)_|Easy|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./BinarySearch/FirstBadVersion/firstBadVersion.py)|_O(log n)_|_O(1)_|Easy|
+
 
