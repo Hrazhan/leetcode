@@ -19,3 +19,4 @@ LeetCode
 |704|[Binary Search](https://leetcode.com/problems/binary-search) | [Python](./BinarySearch/BinarySearch/binarySearch.py)|_O(logn)_|_O(1)_|Easy|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./BinarySearch/FirstBadVersion/firstBadVersion.py)|_O(logn)_|_O(1)_|Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./BinarySearch/SearchInsertPosition/searchInsertPosition.py)|_O(logn)_|_O(1)_|Easy|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./BinarySearch/SearchA2dMatrix/searchA2dMatrix.py)|_O(logm + logn)_|_O(1)_|Medium|
