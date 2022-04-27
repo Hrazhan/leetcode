@@ -22,3 +22,5 @@ LeetCode
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./BinarySearch/SearchA2dMatrix/searchA2dMatrix.py)|_O(logm + logn)_|_O(1)_|Medium|
 |875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) | [Python](./BinarySearch/KokoEatingBananas/kokoEatingBananas.py)|_O(log(max(p))* p)_|_O(1)_|Medium|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./BinarySearch/SearchInRotatedSortedArray/searchInRotatedSortedArray.py)|_O(logn)_|_O(1)_|Medium|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./BinarySearch/FindMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.py)|_O(logn)_|_O(n)_|Medium|
+
