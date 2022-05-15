@@ -23,4 +23,5 @@ LeetCode
 |875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) | [Python](./BinarySearch/KokoEatingBananas/kokoEatingBananas.py)|_O(log(max(p))* p)_|_O(1)_|Medium|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./BinarySearch/SearchInRotatedSortedArray/searchInRotatedSortedArray.py)|_O(logn)_|_O(1)_|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./BinarySearch/FindMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.py)|_O(logn)_|_O(n)_|Medium|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Python](./DynamicProgramming/ClimbingStairs/climbingStairs.py)|_O(n)_|_O(1)_|Easy|
 
