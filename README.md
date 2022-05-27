@@ -25,3 +25,5 @@ LeetCode
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./BinarySearch/FindMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.py)|_O(logn)_|_O(n)_|Medium|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Python](./DynamicProgramming/ClimbingStairs/climbingStairs.py)|_O(n)_|_O(1)_|Easy|
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](./SlidingWindow/MaximumAverageSubarrayI/maximumAverageSubarrayI.py)|_O(n)_|_O(1)_|Easy|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./Arrays/MaximumSubarray/maximumSubarray.py)|_O(n)_|_O(1)_|Easy|
+
