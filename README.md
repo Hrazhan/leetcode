@@ -31,4 +31,5 @@ LeetCode
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./SlidingWindow/LongestRepeatingCharacterReplacement/longestRepeatingCharacterReplacement.py)|_O(n)_|_O(1)_|Medium|
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Python](./SlidingWindow/MaxConsecutiveOnesIii/maxConsecutiveOnesIii.py)|_O(n)_|_O(1)_|Medium|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./SlidingWindow/PermutationInString/permutationInString.py)|_O(n + m)_|_O(m)_|Medium|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./TwoPointers/RemoveDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.py)|_O(n)_|_O(1)_|Easy|
 
