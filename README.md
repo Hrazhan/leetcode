@@ -29,5 +29,6 @@ LeetCode
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | [Python](./SlidingWindow/MinimumSizeSubarraySum/minimumSizeSubarraySum.py)|_O(n+n)_ = _O(n)_|_O(1)_|Medium|
 |904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets) | [Python](./SlidingWindow/FruitIntoBaskets/fruitIntoBaskets.py)|_O(n)_|_O(1)_|Medium|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./SlidingWindow/LongestRepeatingCharacterReplacement/longestRepeatingCharacterReplacement.py)|_O(n)_|_O(1)_|Medium|
+|1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Python](./SlidingWindow/MaxConsecutiveOnesIii/maxConsecutiveOnesIii.py)|_O(n)_|_O(1)_|Medium|
 
 
