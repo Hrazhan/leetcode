@@ -30,5 +30,5 @@ LeetCode
 |904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets) | [Python](./SlidingWindow/FruitIntoBaskets/fruitIntoBaskets.py)|_O(n)_|_O(1)_|Medium|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./SlidingWindow/LongestRepeatingCharacterReplacement/longestRepeatingCharacterReplacement.py)|_O(n)_|_O(1)_|Medium|
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Python](./SlidingWindow/MaxConsecutiveOnesIii/maxConsecutiveOnesIii.py)|_O(n)_|_O(1)_|Medium|
-
+|567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./SlidingWindow/PermutationInString/permutationInString.py)|_O(n + m)_|_O(m)_|Medium|
 
