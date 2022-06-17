@@ -34,4 +34,5 @@ LeetCode
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./TwoPointers/RemoveDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.py)|_O(n)_|_O(1)_|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./TwoPointers/RemoveElement/removeElement.py)|_O(n)_|_O(1)_|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./LinkedList/ReverseLinkedList/reverseLinkedList.py)|_O(n)_|_O(1)_|Easy|
+|112|[Path Sum](https://leetcode.com/problems/path-sum) | [Python](./Trees/PathSum/pathSum.py)|_O(n)_|_O(n)_|Easy|
 
